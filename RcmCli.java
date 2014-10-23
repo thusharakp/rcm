@@ -4,7 +4,7 @@ public class RcmCli
 {
 	public static void main(String args[])throws IOException
 	{
-		Socket s1=new Socket("localhost",1254);
+		Socket s1=new Socket("192.168.0.121",1254);
 		OutputStream os=s1.getOutputStream();
 		DataOutputStream dos=new DataOutputStream(os);
 		InputStream is=s1.getInputStream();
